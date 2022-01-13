@@ -35,6 +35,9 @@ button:hover {
 #increment-btn {
     background: darkred;
 }
+#reset-btn {
+    background: #8d8d8d;
+}
 
 #save-btn {
     background: darkgreen;

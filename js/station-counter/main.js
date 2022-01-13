@@ -47,3 +47,7 @@ function increment() {
     console.log(psgcount);
     document.getElementById("count-el").innerText = psgcount;
 }
+function reset() {
+    psgcount = 0;
+    document.getElementById("count-el").innerText = psgcount;
+}
