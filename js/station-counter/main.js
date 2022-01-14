@@ -41,13 +41,28 @@
 // 
 // 
 // SUBWAY COUNTER
-let psgcount = 0;
+        // let psgcount = 0;
+        // function increment() {
+        //     psgcount = psgcount + 1;
+        //     console.log(psgcount);
+        //     document.getElementById("count-el").innerText = psgcount;
+        // }
+        // function reset() {
+        //     psgcount = 0;
+        //     document.getElementById("count-el").innerText = psgcount;
+        // }
+let countEl = document.getElementById("count-el");
+let count = 0;
+let res = 0;
+
 function increment() {
-    psgcount = psgcount + 1;
-    console.log(psgcount);
-    document.getElementById("count-el").innerText = psgcount;
+    count = count + 1;
+    countEl.innerText = count; 
 }
 function reset() {
-    psgcount = 0;
-    document.getElementById("count-el").innerText = psgcount;
+    count = 0;
+    countEl.innerText = count;
+}
+function save() {
+    console.log(count);
 }
