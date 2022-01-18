@@ -66,3 +66,21 @@ function reset() {
 function save() {
     console.log(count);
 }
+
+    // 
+    // let message = "You've 3 new notifications";
+    // let user = "Tom";
+
+    // console.log(message + ", " + user + "!!");
+
+    // let messageToUser = message + ", " + user + "!!";
+    // console.log(messageToUser);
+
+    // 
+    let myName = "Joseph";
+    let greeting = "Hi, my name is ";
+
+    let myGreeting = greeting + myName;
+    console.log(myGreeting);
+
+
