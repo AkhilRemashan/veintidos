@@ -63,9 +63,9 @@ function reset() {
     count = 0;
     countEl.innerText = count;
 }
-function save() {
-    console.log(count);
-}
+// function save() {
+//     console.log(count);
+// }
 
     // 
     // let message = "You've 3 new notifications";
@@ -77,10 +77,23 @@ function save() {
     // console.log(messageToUser);
 
     // 
-    let myName = "Joseph";
-    let greeting = "Hi, my name is ";
+    // let myName = "Joseph";
+    // let greeting = "Hi, my name is ";
 
-    let myGreeting = greeting + myName;
-    console.log(myGreeting);
+    // let myGreeting = greeting + myName;
+    // console.log(myGreeting);
 
+// SAVE FUNCTIONALITY
+
+let saveEl = document.getElementById("save-el");
+
+function save() {
+
+     let countStr = count + " - ";
+     saveEl.textContent += countStr;
+     countEl.textContent = 0;
+     count = 0;
+
+
+}
 
