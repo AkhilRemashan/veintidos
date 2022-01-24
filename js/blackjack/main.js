@@ -11,10 +11,12 @@ let isAlive = true;
 let message = "";
 
 let messageEl = document.getElementById("message-el");
-let sumEl = document.querySelector("#sum-el")
+let sumEl = document.querySelector("#sum-el");
+let cardsEl = document.querySelector("#cards-el");
 
 
-function startgame() {
+
+function startGame() {
 
 
 
@@ -36,7 +38,15 @@ function startgame() {
     
     sumEl.textContent = "Sum: " + sum;
 
+    cardsEl.textContent = "Cards: " + firstCard + ", " + secondCard; 
+
     messageEl.textContent = message;
 
+}
+
+// 
+
+function newCard() {
+    console.log("new card drawn");
 }
 
