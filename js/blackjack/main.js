@@ -43,7 +43,14 @@ function renderGame() {
     
     sumEl.textContent = "Sum: " + sum;
 
-    cardsEl.textContent = "Cards: " + cards[0] + ", " + cards[1]; 
+    // cardsEl.textContent = "Cards: " + cards[0] + ", " + cards[1]; 
+
+    cardsEl.textContent = "Cards: "; 
+
+
+    for(i = 0; i < cards.length; i++) {
+        cardsEl.textContent += cards[i] + " ";
+    }
 
     messageEl.textContent = message;
 
@@ -56,6 +63,11 @@ function newCard() {
     // 
     let card = 5;
     sum += card;
+    // pushing new card in cards array
+    cards.push(card);
+    console.log(cards)
+
+
     renderGame();
 }
 
