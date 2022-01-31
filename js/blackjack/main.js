@@ -59,8 +59,7 @@ function renderGame() {
 // 
 
 function newCard() {
-    // console.log("new card drawn");
-    // 
+    
     let card = 5;
     sum += card;
     // pushing new card in cards array
