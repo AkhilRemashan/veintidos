@@ -1,7 +1,7 @@
 
 
-let firstCard = 20;
-let secondCard = 12;
+let firstCard = getRandomcard();
+let secondCard = getRandomcard();
 
 let sum =  firstCard + secondCard;
 
@@ -20,6 +20,13 @@ let cards = [firstCard, secondCard]
 function startGame() {
     renderGame();
 }
+
+// 
+function getRandomcard() {
+    return 5;
+}
+
+
 
 function renderGame() {
 
@@ -60,7 +67,7 @@ function renderGame() {
 
 function newCard() {
     
-    let card = 5;
+    let card = getRandomcard();
     sum += card;
     // pushing new card in cards array
     cards.push(card);
