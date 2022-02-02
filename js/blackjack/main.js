@@ -23,7 +23,8 @@ function startGame() {
 
 // 
 function getRandomcard() {
-    return 5;
+    let randomNumber = Math.floor(Math.random() * 13) + 1;
+    return randomNumber; 
 }
 
 
