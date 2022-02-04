@@ -83,7 +83,6 @@ function renderGame() {
         cardsEl.textContent += cards[i] + " ";
     }
 
-    // messageEl.textContent = message;
     messageEl.textContent = message;
 
 }
