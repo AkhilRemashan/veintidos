@@ -16,11 +16,11 @@ app.get('/', (req, res) => {
 
 });
 
-// app.get('/posts', (req,res) => {
+app.get('/posts', (req,res) => {
 
-//     res.send("We are posts");
+    res.send("We are posts");
 
-// });
+});
 
 
 
