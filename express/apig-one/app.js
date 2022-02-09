@@ -5,7 +5,7 @@ const app = express();
 
 // Middlewares
 app.use('/posts', () => {
-    // console.log("This is a middleware running");
+    console.log("This is a middleware running");
 });
 
 
