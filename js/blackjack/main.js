@@ -90,12 +90,19 @@ function renderGame() {
 // 
 
 function newCard() {
+
+    if ( isAlive === true && hasBlackJack === false ) {
+
+        let card = getRandomcard();
+        sum += card;
+        // pushing new card in cards array
+        cards.push(card);
+        console.log(cards);
+
+
+    }
     
-    let card = getRandomcard();
-    sum += card;
-    // pushing new card in cards array
-    cards.push(card);
-    console.log(cards)
+    
 
 
     renderGame();
