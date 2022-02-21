@@ -119,9 +119,3 @@ function newCard() {
 
 
 
-// objects test
-// let game = {
-//     level: [1, 2, 3, 4],
-//     freeChip: 10,
-//     multiPlayer: false
-// }
